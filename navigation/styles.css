@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+form {
+  padding: 1rem;
+  border: 1px solid rgb(168, 180, 228);
+}
+
+.button {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  background-color: rgb(132, 132, 220);
+  color: white;
+  border-radius: 0.7rem;
+  text-align: center;
+  cursor: pointer;
+}

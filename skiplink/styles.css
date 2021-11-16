@@ -1,0 +1,37 @@
+body {
+  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue',
+    Helvetica, Arial, 'Lucida Grande', sans-serif;
+  font-weight: 300;
+  font-size: 22px;
+  margin: 0;
+}
+
+header {
+  box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+  height: 64px;
+  line-height: 64px;
+  top: 0;
+  width: 100%;
+}
+
+header ul {
+  list-style: none;
+  margin: 0;
+}
+
+header ul li {
+  float: left;
+  margin-right: 20px;
+  padding: 0 10px;
+}
+
+header ul li a {
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+
+header ul li a:hover {
+  border-bottom: 1px solid #333;
+}
